@@ -1,7 +1,7 @@
 import time
 
-from weather_data_collector import WeatherDataCollector
-from weather_data_transformer import WeatherDataTransformer
+from weather_pipeline.weather_data_collector import WeatherDataCollector
+from weather_pipeline.weather_data_transformer import WeatherDataTransformer
 
 
 class WeatherDataPipeline:

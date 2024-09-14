@@ -1,6 +1,6 @@
 import requests
 from datetime import datetime
-from api_key import api_key
+
 
 class WeatherDataCollector:
     def __init__(self, city_name: str, api_key: str):
